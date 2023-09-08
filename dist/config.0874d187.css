@@ -174,5 +174,13 @@ img, video, canvas, svg {
     width: 280px;
   }
 }
+.loading__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 84%;
+  opacity: 0;
+}
 
 /*# sourceMappingURL=/config.0874d187.css.map */
