@@ -25,6 +25,15 @@ button,select,input,textarea{
     font: inherit;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
 // select all p ann h
 p,h1,h2,h3,h4,h5,h6{
     // pour que le contenu depasse jamais son parent
@@ -39,4 +48,6 @@ img,video,canvas,svg{
 
 $green-color: #6cff8d;
 $dark-green-color: #6cff8c7a;
+$red-Color:#f44336;
+$blue-Color:#2196f3;
 
