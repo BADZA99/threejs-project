@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+@import url("https://fonts.cdnfonts.com/css/wolfers");
+@import url("https://fonts.cdnfonts.com/css/noir-et-blanc");
+@import url("https://fonts.cdnfonts.com/css/nulshock");
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +44,9 @@ img, video, canvas, svg {
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+@import url("https://fonts.cdnfonts.com/css/wolfers");
+@import url("https://fonts.cdnfonts.com/css/noir-et-blanc");
+@import url("https://fonts.cdnfonts.com/css/nulshock");
 * {
   margin: 0;
   padding: 0;
@@ -208,12 +214,16 @@ img, video, canvas, svg {
   background: #111;
   color: #fff;
   overflow: hidden;
+  background-image: url("/189.6bef412f.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .landing .header {
   position: absolute;
   top: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 .landing .header__wrap {
   padding: 10px;
@@ -260,9 +270,125 @@ img, video, canvas, svg {
   display: flex;
   align-items: center;
   gap: 1rem;
+  z-index: 2;
+}
+.landing .scrollDown {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.landing .scrollDown__wheel {
+  height: 42px;
+  width: 24px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.landing .scrollDown__wheel--inner {
+  position: absolute;
+  left: 10px;
+  margin-top: 5px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: #fff;
+  animation: movingwheel 0.5s linear infinite;
+}
+@keyframes movingwheel {
+  0% {
+    top: 1px;
+  }
+  25% {
+    top: 2px;
+  }
+  50% {
+    top: 3px;
+  }
+  75% {
+    top: 2px;
+  }
+  100% {
+    top: 1px;
+  }
+}
+.landing .scrollDown .scrollDown__arrows {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.landing .scrollDown .scrollDown__arrows .scrollDown__arrow {
+  width: 15px;
+  height: 15px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  animation: arrowsAnim 1s infinite;
+  animation-direction: alternate;
+}
+.landing .scrollDown .scrollDown__arrows .scrollDown__arrow:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.landing .scrollDown .scrollDown__arrows .scrollDown__arrow:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.landing .scrollDown .scrollDown__arrows .scrollDown__arrow:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes arrowsAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.landing .intro {
+  position: absolute;
+  top: 20%;
+  left: 1rem;
+  width: 100%;
+  height: 60%;
+  z-index: 2;
+  color: #fff;
+  font-family: "Noir-et-Blanc", sans-serif;
+}
+.landing .intro h4 {
+  font-size: 33px;
+}
+.landing .intro h1 {
+  font-size: 35px;
+  width: 93%;
+  padding-top: 1rem;
+}
+@media (min-width: 600px) {
+  .landing .intro h1 {
+    font-size: 55px;
+  }
+  .landing .intro h4 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .landing .intro {
+    left: 5%;
+  }
+  .landing .intro h1 {
+    font-size: 70px;
+  }
+  .landing .intro h4 {
+    font-size: 50px;
+  }
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+@import url("https://fonts.cdnfonts.com/css/wolfers");
+@import url("https://fonts.cdnfonts.com/css/noir-et-blanc");
+@import url("https://fonts.cdnfonts.com/css/nulshock");
 * {
   margin: 0;
   padding: 0;

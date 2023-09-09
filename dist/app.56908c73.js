@@ -5580,6 +5580,7 @@ var barInterval = setInterval(function () {
     _gsap.default.to(".loading", {
       delay: 2,
       duration: 2,
+      zIndex: 1,
       background: "transparent",
       opacity: 0.5
     });
