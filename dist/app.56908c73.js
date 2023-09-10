@@ -9591,18 +9591,30 @@ var reviews = [{
   review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
   date: "12/01/2020-16/5/2020"
 }, {
-  position: "developer front end",
+  position: "Job: developer front end",
   image: _frontEnd.default,
   review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: "12/01/2020-16/5/2020"
+  date: " duration: january 2020 may 2020"
+}, {
+  position: "Job: developer front end",
+  image: _frontEnd.default,
+  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
+  date: " duration: january 2020 may 2020"
+}, {
+  position: "Job: developer front end",
+  image: _frontEnd.default,
+  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
+  date: " duration: january 2020 may 2020"
 }];
 exports.reviews = reviews;
 },{"../images/front-end.jpg":"assets/images/front-end.jpg"}],"assets/js/app.js":[function(require,module,exports) {
 "use strict";
 
 var _gsap = _interopRequireDefault(require("gsap"));
-var _swiper = _interopRequireDefault(require("swiper"));
+var _swiper = _interopRequireWildcard(require("swiper"));
 var _data = require("./data");
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var bar = document.querySelector(".loading__bar--inner");
 var counter_number = document.querySelector(".loading__counter--number");
@@ -9654,25 +9666,31 @@ var barInterval = setInterval(function () {
 }, 20);
 
 // swiper reviews js
-var swiper = new _swiper.default(".swiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true
-  },
-  breakpoints: {
-    850: {
-      slidesPerView: 2
-    },
-    1400: {
-      slidesPerView: 3
-    },
-    1900: {
-      slidesPerView: 4
-    }
-  }
-});
+// Swiper.use([Pagination,Navigation]);
+// var swiper = new Swiper(".swiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   breakpoints: {
+//     850: {
+//       slidesPerView: 1,
+//     },
+//     1400: {
+//       slidesPerView: 3,
+//     },
+//   },
+
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//     type: "bullets"
+//   },
+
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
+
 var swiper_container = document.querySelector(".swiper-wrapper");
 _data.reviews.map(function (review) {
   var template = "  <div class=\"swiper-slide\"> <div class=\"review\"> <svg></svg> <div class=\"review__card\"> <div class=\"review__topborder\"></div> <div class=\"review__text\"> <span>".concat(review.review.substring(0, 1), "</span>").concat(review.review.substring(1, review.review.length), " </div> <img src=").concat(review.image, " alt=\"\" class=\"review__img\"> <div class=\"review__profile\"> <span>").concat(review.position, "</span> <span>").concat(review.date, "</span> </div> </div> </div> </div>\n              ");
@@ -9705,7 +9723,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49353" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52362" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

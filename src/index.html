@@ -17,6 +17,9 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <!-- fav icon -->
     <link
       rel="apple-touch-icon"
@@ -254,14 +257,72 @@
       <!-- Swiper -->
       <div class="swiper__wrapper">
         <div class="swiper">
-          <div class="swiper-wrapper">
-          
+          <div class="swiper-wrapper"></div>
+        </div>
+        <div class="swiper__tools">
+          <div class="swiper__buttons">
+            <button class="swiper-button-prev">
+              <img src="assets/images/rightArrow.png" alt="right arrow" />
+            </button>
+            <button class="swiper-button-next">
+              <img src="assets/images/rightArrow.png" alt="right arrow" />
+            </button>
           </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
 
+    <!-- Projects -->
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+
+        breakpoints: {
+          850: {
+            slidesPerView: 2,
+          },
+          1400: {
+            slidesPerView: 3,
+          },
+          1900: {
+            slidesPerView: 4,
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          type: "bullets",
+        },
+      });
+    </script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>

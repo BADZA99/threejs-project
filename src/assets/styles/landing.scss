@@ -9,6 +9,7 @@
     background-image: url('../images/wallpapers/10.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     .header{
         position: absolute;
         top: 1rem;
@@ -197,6 +198,11 @@
             }
 
         }
+        // @media (max-width:355px) {
+        //     &__sm {
+        //         display: none;
+        //     }
+        // }
     }
 
 }

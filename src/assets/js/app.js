@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import Swiper from "swiper";
+import Swiper,{Pagination,Navigation} from "swiper";
 import { reviews } from "./data";
 const bar = document.querySelector(".loading__bar--inner");
 const counter_number = document.querySelector(".loading__counter--number");
@@ -52,26 +52,30 @@ let barInterval = setInterval(() => {
 }, 20);
 
 // swiper reviews js
-var swiper = new Swiper(".swiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+// Swiper.use([Pagination,Navigation]);
+// var swiper = new Swiper(".swiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   breakpoints: {
+//     850: {
+//       slidesPerView: 1,
+//     },
+//     1400: {
+//       slidesPerView: 3,
+//     },
+//   },
 
-  breakpoints:{
-    850:{
-      slidesPerView: 2,
-    },
-    1400:{
-      slidesPerView: 3,
-    },
-    1900:{
-      slidesPerView: 4,
-    },
-  }
-});
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//     type: "bullets"
+//   },
+  
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 
 const swiper_container = document.querySelector(".swiper-wrapper");
 
