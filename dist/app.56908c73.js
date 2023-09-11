@@ -9576,7 +9576,7 @@ exports.reviews = void 0;
 var _frontEnd = _interopRequireDefault(require("../images/front-end.jpg"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var reviews = [{
-  position: "developer front end",
+  position: " freelance developer front end",
   image: _frontEnd.default,
   review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
   date: "12/01/2020-16/5/2020"
@@ -9693,7 +9693,7 @@ var barInterval = setInterval(function () {
 
 var swiper_container = document.querySelector(".swiper-wrapper");
 _data.reviews.map(function (review) {
-  var template = "  <div class=\"swiper-slide\"> <div class=\"review\"> <svg></svg> <div class=\"review__card\"> <div class=\"review__topborder\"></div> <div class=\"review__text\"> <span>".concat(review.review.substring(0, 1), "</span>").concat(review.review.substring(1, review.review.length), " </div> <img src=").concat(review.image, " alt=\"\" class=\"review__img\"> <div class=\"review__profile\"> <span>").concat(review.position, "</span> <span>").concat(review.date, "</span> </div> </div> </div> </div>\n              ");
+  var template = "  <div class=\"swiper-slide\"> <div class=\"review\"> <svg></svg> <div class=\"review__card\"> <div class=\"review__topborder\"></div> <div class=\"review__text\"> <span>".concat(review.review.substring(0, 1), "</span>").concat(review.review.substring(1, review.review.length), " </div> <img src=").concat(review.image, " alt=\"\" class=\"review__img\"> <div class=\"review__profile\"> <span>").concat(review.position, "</span> <span>").concat(review.date, "</span> </div> </div> </div> </div>");
   swiper_container.innerHTML += template;
 });
 

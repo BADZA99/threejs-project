@@ -2,7 +2,7 @@ import image from '../images/front-end.jpg'
 
 let reviews = [
   {
-    position: "developer front end",
+    position: " freelance developer front end",
     image: image,
     review:
       "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",

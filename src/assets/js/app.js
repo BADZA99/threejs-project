@@ -77,19 +77,13 @@ let barInterval = setInterval(() => {
 //   },
 // });
 
+
 const swiper_container = document.querySelector(".swiper-wrapper");
 
-
 reviews.map((review) => {
-  let template = `  <div class="swiper-slide"> <div class="review"> <svg></svg> <div class="review__card"> <div class="review__topborder"></div> <div class="review__text"> <span>${review.review.substring(
-    0,
-    1
-  )}</span>${review.review.substring(1, review.review.length)} </div> <img src=${
-    review.image
-  } alt="" class="review__img"> <div class="review__profile"> <span>${
+  let template = `  <div class="swiper-slide"> <div class="review"> <svg></svg> <div class="review__card"> <div class="review__topborder"></div> <div class="review__text"> <span>${review.review.substring(0,1)}</span>${review.review.substring(1, review.review.length)} </div> <img src=${review.image} alt="" class="review__img"> <div class="review__profile"> <span>${
     review.position
-  }</span> <span>${review.date}</span> </div> </div> </div> </div>
-              `;
+  }</span> <span>${review.date}</span> </div> </div> </div> </div>`;
   swiper_container.innerHTML+=template;
 });
 
