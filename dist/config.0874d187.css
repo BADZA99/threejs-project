@@ -58,6 +58,15 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 5rem;
   }
 }
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 @import url("https://fonts.cdnfonts.com/css/wolfers");
@@ -117,6 +126,15 @@ p, h1, h2, h3, h4, h5, h6 {
   .section {
     padding: 5rem;
   }
+}
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
 }
 
 .loading {
@@ -477,6 +495,15 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 5rem;
   }
 }
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
 
 .coolLink {
   position: relative;
@@ -734,6 +761,15 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 5rem;
   }
 }
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
 
 .skills {
   position: relative;
@@ -851,6 +887,15 @@ p, h1, h2, h3, h4, h5, h6 {
   .section {
     padding: 5rem;
   }
+}
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
 }
 
 .reviews {
@@ -1858,6 +1903,66 @@ button.swiper-pagination-bullet {
   .project__header span {
     font-size: 25px;
   }
+}
+.faq {
+  position: relative;
+  background: linear-gradient(to right, #f3e5ce, #f4deb7, #f3e4ce);
+}
+.faq__wrap {
+  padding: 3rem 4.5%;
+}
+.faq .question {
+  position: relative;
+  border-bottom: 1px solid #0f0f0f;
+  padding: 24px 0 34px 0;
+}
+.faq .question h3 {
+  cursor: pointer;
+  font-size: 27px;
+  color: #0f0f0f;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .faq .question h3 {
+    font-size: 22px;
+  }
+}
+.faq .question__wrap {
+  display: grid;
+  grid-template-columns: 26px auto;
+  align-items: center;
+  gap: 1rem;
+}
+.faq .question__answer {
+  font-family: sans-serif;
+  margin: 20px 0;
+  min-width: 40rem;
+  color: #0f0f0f;
+  padding-left: 40px;
+  display: none;
+}
+.faq .question__status {
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  border: 3px solid #0f0f0f;
+  border-radius: 50%;
+  margin-top: 2px;
+  transition: all 0.2s ease-in-out;
+}
+@media (max-width: 700px) {
+  .faq .question__status {
+    width: 25px;
+    height: 25px;
+  }
+}
+.faq .question.open .question__answer {
+  display: block;
+}
+.faq .question.open .question__status {
+  background: #0f0f0f;
+  outline: 1px solid #0f0f0f;
+  outline-offset: 2px;
 }
 
 /*# sourceMappingURL=/config.0874d187.css.map */

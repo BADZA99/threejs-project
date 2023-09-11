@@ -87,5 +87,15 @@ reviews.map((review) => {
   swiper_container.innerHTML+=template;
 });
 
+// faq
 
-// ${review.review.substring(1, review.review.length)}
+const questions =[...document.querySelectorAll('.question')];
+
+questions.map((question)=>{
+  let q_text=question.querySelector('h3');
+  q_text.addEventListener('click',()=>{
+    questions.filter((q)=> q !== question ).map((q)=>q.classList.remove("open"));
+    question.classList.toggle("open")
+  })
+}
+)
