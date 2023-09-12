@@ -264,7 +264,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background: #111;
   color: #fff;
   overflow: hidden;
-  background-image: url("/10.eef765f8.jpg");
+  background: transparent;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1975,6 +1975,68 @@ button.swiper-pagination-bullet {
 @media (max-width: 1100px) {
   .contact {
     padding: 2rem;
+  }
+}
+.contact__profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.contact__profile-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact__profile-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.contact__profile-col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 17px;
+  z-index: 1;
+}
+.contact__profile-bg {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  background: #f6d5a4;
+  border-radius: 5px;
+  left: 20%;
+}
+.contact__socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+.contact__socials {
+  font-size: 25px;
+}
+.contact__footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.contact__footer-link {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  .contact__footer-link {
+    font-size: 14px;
   }
 }
 
