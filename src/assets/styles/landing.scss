@@ -13,7 +13,7 @@
     background-position: center;
     .header{
         position: absolute;
-        top: 1rem;
+        top: -100%;
         left: 50%;
         transform: translateX(-50%);
         z-index: 2;
@@ -66,7 +66,7 @@
        position: absolute;
        left: 50%;
        transform: translateX(-50%);
-       bottom: 10rem;
+       bottom: -100%;
        display: flex;
        align-items: center;
        gap: 1rem;
@@ -75,10 +75,11 @@
 
     .scrollDown{
         position: absolute;
-        bottom: 3rem;
+        bottom: -100%;
         left: 50%;
         transform: translateX(-50%);
         cursor: pointer;
+        z-index: 1;
 
         &__wheel{
             height: 42px;
@@ -161,8 +162,8 @@
         position: absolute;
         top: 20%;
         left: 1rem;
-        width: 100%;
-        height: 60%;
+        width: 90%;
+        height: 70%;
         z-index: 2;
         color: #fff;
         // font-family: 'Nulshock', sans-serif;
@@ -206,5 +207,10 @@
         // }
     }
 
+}
+
+.landing canvas{
+    position: absolute;
+    // z-index: 1;
 }
 

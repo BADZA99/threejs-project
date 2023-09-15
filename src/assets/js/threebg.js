@@ -20,7 +20,7 @@ window.addEventListener('resize',()=>{
 const geometry=new THREE.PlaneGeometry(18,10,15,9);
 const material=new THREE.MeshBasicMaterial({
     // color:0xff0000,
-    map:loader.load(backgrounds.bg3),
+    map:loader.load(backgrounds.bg6),
     // wireframe:true,
 });
 
@@ -40,12 +40,13 @@ function animate(){
         const y = geometry.attributes.position.getY(i);
 
         // animations
-        const anim1 = 0.75 * Math.sin(x * 2 + time * 0.7);
-        const anim2 = 0.25 * Math.sin(x + time * 0.7);
-        const anim3 = 0.1 * Math.sin(y * 15 + time * 0.7);
+        const anim1 = 0.40 * Math.cos(y * 2 + time * 0.7);
+        const anim2 = 0.40 * Math.sin(x *2 + time * 0.7);
+        const anim3 = 0.1 * Math.cos(y * 15 + time * 0.7);
+        const anim4 = 0.1 * Math.sin(y * 2 + time * 0.7);
+        
 
-
-        geometry.attributes.position.setZ(i,anim1+anim2+anim3);
+        geometry.attributes.position.setZ(i,anim1+anim2);
         geometry.computeVertexNormals();
         geometry.attributes.position.needsUpdate=true;
     }

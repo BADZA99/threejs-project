@@ -33158,16 +33158,36 @@ if (typeof window !== 'undefined') {
 }
 },{}],"assets/images/front-end.jpg":[function(require,module,exports) {
 module.exports = "/front-end.5e63c2da.jpg";
-},{}],"assets/images/wallpapers/78.jpg":[function(require,module,exports) {
-module.exports = "/78.b8dce045.jpg";
-},{}],"assets/images/wallpapers/152.jpg":[function(require,module,exports) {
-module.exports = "/152.9491fd65.jpg";
-},{}],"assets/images/wallpapers/6.png":[function(require,module,exports) {
-module.exports = "/6.87789f3d.png";
+},{}],"assets/images/wallpapers/77.jpg":[function(require,module,exports) {
+module.exports = "/77.83be66c3.jpg";
+},{}],"assets/images/wallpapers/185.jpg":[function(require,module,exports) {
+module.exports = "/185.daec1838.jpg";
+},{}],"assets/images/wallpapers/213.png":[function(require,module,exports) {
+module.exports = "/213.93c3418b.png";
 },{}],"assets/images/wallpapers/10.jpg":[function(require,module,exports) {
 module.exports = "/10.eef765f8.jpg";
-},{}],"assets/images/wallpapers/189.jpg":[function(require,module,exports) {
-module.exports = "/189.6bef412f.jpg";
+},{}],"assets/images/wallpapers/49.jpg":[function(require,module,exports) {
+module.exports = "/49.b2b22010.jpg";
+},{}],"assets/images/wallpapers/0.jpg":[function(require,module,exports) {
+module.exports = "/0.1f144496.jpg";
+},{}],"assets/images/wallpapers/50.jpg":[function(require,module,exports) {
+module.exports = "/50.53e73f15.jpg";
+},{}],"assets/images/wallpapers/161.jpg":[function(require,module,exports) {
+module.exports = "/161.df177438.jpg";
+},{}],"assets/images/wallpapers/184.jpg":[function(require,module,exports) {
+module.exports = "/184.b906dd48.jpg";
+},{}],"assets/images/wallpapers/183.jpg":[function(require,module,exports) {
+module.exports = "/183.0c8fc000.jpg";
+},{}],"assets/images/shadebg/me1.jpg":[function(require,module,exports) {
+module.exports = "/me1.202131f2.jpg";
+},{}],"assets/images/shadebg/me2.jpg":[function(require,module,exports) {
+module.exports = "/me2.07928640.jpg";
+},{}],"assets/images/shadebg/galsen.jpg":[function(require,module,exports) {
+module.exports = "/galsen.ba3826f1.jpg";
+},{}],"assets/images/shadebg/me4.jpg":[function(require,module,exports) {
+module.exports = "/me4.862aee8f.jpg";
+},{}],"assets/images/shadebg/me6.jpg":[function(require,module,exports) {
+module.exports = "/me6.26147096.jpg";
 },{}],"assets/js/data.js":[function(require,module,exports) {
 "use strict";
 
@@ -33176,11 +33196,21 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.reviews = exports.default = void 0;
 var _frontEnd = _interopRequireDefault(require("../images/front-end.jpg"));
-var _ = _interopRequireDefault(require("../images/wallpapers/78.jpg"));
-var _2 = _interopRequireDefault(require("../images/wallpapers/152.jpg"));
-var _3 = _interopRequireDefault(require("../images/wallpapers/6.png"));
+var _ = _interopRequireDefault(require("../images/wallpapers/77.jpg"));
+var _2 = _interopRequireDefault(require("../images/wallpapers/185.jpg"));
+var _3 = _interopRequireDefault(require("../images/wallpapers/213.png"));
 var _4 = _interopRequireDefault(require("../images/wallpapers/10.jpg"));
-var _5 = _interopRequireDefault(require("../images/wallpapers/189.jpg"));
+var _5 = _interopRequireDefault(require("../images/wallpapers/49.jpg"));
+var _6 = _interopRequireDefault(require("../images/wallpapers/0.jpg"));
+var _7 = _interopRequireDefault(require("../images/wallpapers/50.jpg"));
+var _8 = _interopRequireDefault(require("../images/wallpapers/161.jpg"));
+var _9 = _interopRequireDefault(require("../images/wallpapers/184.jpg"));
+var _10 = _interopRequireDefault(require("../images/wallpapers/183.jpg"));
+var _me = _interopRequireDefault(require("../images/shadebg/me1.jpg"));
+var _me2 = _interopRequireDefault(require("../images/shadebg/me2.jpg"));
+var _galsen = _interopRequireDefault(require("../images/shadebg/galsen.jpg"));
+var _me3 = _interopRequireDefault(require("../images/shadebg/me4.jpg"));
+var _me4 = _interopRequireDefault(require("../images/shadebg/me6.jpg"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // fais un tableau de tous les bg 
 let backgrounds = {
@@ -33188,7 +33218,17 @@ let backgrounds = {
   bg2: _2.default,
   bg3: _3.default,
   bg4: _4.default,
-  bg5: _5.default
+  bg5: _5.default,
+  bg6: _6.default,
+  bg7: _7.default,
+  bg8: _8.default,
+  bg9: _9.default,
+  bg10: _10.default,
+  shade1: _me.default,
+  shade2: _me2.default,
+  shade3: _galsen.default,
+  shade4: _me3.default,
+  shade5: _me4.default
 };
 let reviews = [{
   position: " freelance developer front end",
@@ -33224,7 +33264,7 @@ let reviews = [{
 exports.reviews = reviews;
 var _default = backgrounds;
 exports.default = _default;
-},{"../images/front-end.jpg":"assets/images/front-end.jpg","../images/wallpapers/78.jpg":"assets/images/wallpapers/78.jpg","../images/wallpapers/152.jpg":"assets/images/wallpapers/152.jpg","../images/wallpapers/6.png":"assets/images/wallpapers/6.png","../images/wallpapers/10.jpg":"assets/images/wallpapers/10.jpg","../images/wallpapers/189.jpg":"assets/images/wallpapers/189.jpg"}],"assets/js/threebg.js":[function(require,module,exports) {
+},{"../images/front-end.jpg":"assets/images/front-end.jpg","../images/wallpapers/77.jpg":"assets/images/wallpapers/77.jpg","../images/wallpapers/185.jpg":"assets/images/wallpapers/185.jpg","../images/wallpapers/213.png":"assets/images/wallpapers/213.png","../images/wallpapers/10.jpg":"assets/images/wallpapers/10.jpg","../images/wallpapers/49.jpg":"assets/images/wallpapers/49.jpg","../images/wallpapers/0.jpg":"assets/images/wallpapers/0.jpg","../images/wallpapers/50.jpg":"assets/images/wallpapers/50.jpg","../images/wallpapers/161.jpg":"assets/images/wallpapers/161.jpg","../images/wallpapers/184.jpg":"assets/images/wallpapers/184.jpg","../images/wallpapers/183.jpg":"assets/images/wallpapers/183.jpg","../images/shadebg/me1.jpg":"assets/images/shadebg/me1.jpg","../images/shadebg/me2.jpg":"assets/images/shadebg/me2.jpg","../images/shadebg/galsen.jpg":"assets/images/shadebg/galsen.jpg","../images/shadebg/me4.jpg":"assets/images/shadebg/me4.jpg","../images/shadebg/me6.jpg":"assets/images/shadebg/me6.jpg"}],"assets/js/threebg.js":[function(require,module,exports) {
 "use strict";
 
 var THREE = _interopRequireWildcard(require("three"));
@@ -33251,7 +33291,7 @@ window.addEventListener('resize', () => {
 const geometry = new THREE.PlaneGeometry(18, 10, 15, 9);
 const material = new THREE.MeshBasicMaterial({
   // color:0xff0000,
-  map: loader.load(_data.default.bg3)
+  map: loader.load(_data.default.bg6)
   // wireframe:true,
 });
 
@@ -33267,10 +33307,11 @@ function animate() {
     const y = geometry.attributes.position.getY(i);
 
     // animations
-    const anim1 = 0.75 * Math.sin(x * 2 + time * 0.7);
-    const anim2 = 0.25 * Math.sin(x + time * 0.7);
-    const anim3 = 0.1 * Math.sin(y * 15 + time * 0.7);
-    geometry.attributes.position.setZ(i, anim1 + anim2 + anim3);
+    const anim1 = 0.40 * Math.cos(y * 2 + time * 0.7);
+    const anim2 = 0.40 * Math.sin(x * 2 + time * 0.7);
+    const anim3 = 0.1 * Math.cos(y * 15 + time * 0.7);
+    const anim4 = 0.1 * Math.sin(y * 2 + time * 0.7);
+    geometry.attributes.position.setZ(i, anim1 + anim2);
     geometry.computeVertexNormals();
     geometry.attributes.position.needsUpdate = true;
   }
@@ -33305,7 +33346,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53334" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49154" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
