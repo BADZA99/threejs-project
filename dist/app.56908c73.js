@@ -16173,7 +16173,7 @@ _smoothScrollbar.default.use(AnchorPlugin);
 
 const swiper_container = document.querySelector(".swiper-wrapper");
 _data.reviews.map(review => {
-  let template = `  <div class="swiper-slide"> <div class="review"> <svg></svg> <div class="review__card"> <div class="review__topborder"></div> <div class="review__text"> <span>${review.review.substring(0, 1)}</span>${review.review.substring(1, review.review.length)} </div> <img src=${review.image} alt="" class="review__img"> <div class="review__profile"> <span>${review.position}</span> <span>${review.date}</span> </div> </div> </div> </div>`;
+  let template = ` <div class="swiper-slide"> <div class="review"> <svg></svg> <div class="review__card"> <div class="review__topborder"></div> <div class="review__text"> <span>${review.review.substring(0, 1)}</span>${review.review.substring(1, review.review.length)} </div> <img src=${review.image} alt="" class="review__img"> <div class="review__profile"> <span>${review.position}</span> <span>${review.date}</span> </div> </div> </div> </div>`;
   swiper_container.innerHTML += template;
 });
 
@@ -16212,7 +16212,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53221" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53415" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
