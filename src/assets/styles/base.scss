@@ -33,6 +33,7 @@ body{
     line-height: 1.5;
     -webkik-font-smoothing:antialiased;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 button,select,input,textarea{

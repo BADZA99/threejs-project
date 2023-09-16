@@ -39,46 +39,40 @@ let backgrounds = {
 
 let reviews = [
   {
-    position: " freelance developer front end",
+    position: " self-taught front end developer",
     image: image,
     review:
-      "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-    date: "12/01/2020-16/5/2020",
+      "I've created many websites (see my github) thanks to this, I was able to acquire a considerable amount of self-taught practice."
+  },
+  {
+    position: " freelance front end developer",
+    image: image,
+    review:
+      "I had to develop an interface (ux/ui) for an application for a French rental company.",
   },
   {
     position: "developer front end",
     image: image,
     review:
-      "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-    date: "12/01/2020-16/5/2020",
+      "I have a professional degree in software engineering from the Institut Supérieur d'Informatique (ISI) in Dakar.",
   },
   {
-    position: "developer front end",
+    position: " freelance front end developer",
     image: image,
     review:
-      "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-    date: "12/01/2020-16/5/2020",
+      "I had to develop an interface (ux/ui) for an application for a French rental company.",
   },
   {
-    position: "Job: developer front end",
+    position: "software engineering degree",
     image: image,
     review:
-      "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-    date: " duration: january 2020 may 2020",
+      "I have a professional degree in software engineering from the Institut Supérieur d'Informatique (ISI) in Dakar.",
   },
   {
-    position: "Job: developer front end",
+    position: " self-taught front end developer",
     image: image,
     review:
-      "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-    date: " duration: january 2020 may 2020",
-  },
-  {
-    position: "Job: developer front end",
-    image: image,
-    review:
-      "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-    date: " duration: january 2020 may 2020",
+      "I've created many websites (see my github) thanks to this, I was able to acquire a considerable amount of self-taught practice.",
   },
 ];
 export default backgrounds;

@@ -33231,35 +33231,29 @@ let backgrounds = {
   shade5: _me4.default
 };
 let reviews = [{
-  position: " freelance developer front end",
+  position: " self-taught front end developer",
   image: _frontEnd.default,
-  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: "12/01/2020-16/5/2020"
+  review: "I've created many websites (see my github) thanks to this, I was able to acquire a considerable amount of self-taught practice."
+}, {
+  position: " freelance front end developer",
+  image: _frontEnd.default,
+  review: "I had to develop an interface (ux/ui) for an application for a French rental company."
 }, {
   position: "developer front end",
   image: _frontEnd.default,
-  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: "12/01/2020-16/5/2020"
+  review: "I have a professional degree in software engineering from the Institut Supérieur d'Informatique (ISI) in Dakar."
 }, {
-  position: "developer front end",
+  position: " freelance front end developer",
   image: _frontEnd.default,
-  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: "12/01/2020-16/5/2020"
+  review: "I had to develop an interface (ux/ui) for an application for a French rental company."
 }, {
-  position: "Job: developer front end",
+  position: "software engineering degree",
   image: _frontEnd.default,
-  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: " duration: january 2020 may 2020"
+  review: "I have a professional degree in software engineering from the Institut Supérieur d'Informatique (ISI) in Dakar."
 }, {
-  position: "Job: developer front end",
+  position: " self-taught front end developer",
   image: _frontEnd.default,
-  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: " duration: january 2020 may 2020"
-}, {
-  position: "Job: developer front end",
-  image: _frontEnd.default,
-  review: "orem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi, doloremque assumenda temporibus voluptate corporis laboriosam exercitationem perspiciatis commodi molestias ab repellendus vero.",
-  date: " duration: january 2020 may 2020"
+  review: "I've created many websites (see my github) thanks to this, I was able to acquire a considerable amount of self-taught practice."
 }];
 exports.reviews = reviews;
 var _default = backgrounds;
@@ -33346,7 +33340,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49154" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53221" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
