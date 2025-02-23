@@ -20,6 +20,7 @@
     "sass": "^1.66.1"
   },
   "dependencies": {
+    "deasync": "^0.1.30",
     "gsap": "^3.12.2",
     "imagesloaded": "^5.0.0",
     "smooth-scrollbar": "^8.8.4",
